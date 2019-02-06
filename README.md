@@ -13,7 +13,7 @@ This nginx & it's configs are set to work with Organizr & with HTTP Authenticati
 
 Always change domain / domain.com in the .conf to your very own FQDN (Fully qualified domain name)!
 
-Will add more info later on Including a full guide on how to do everthing. Nginx, ssl, auth's geoblock ect.
+Will add more info later on Including a full guide on how to do everthing. Nginx, ssl, auth's, geoblock, domain ect.
 
 Basically everything you will ever need. =)
 
