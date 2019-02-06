@@ -1,7 +1,7 @@
 # Qbittorrent Reverse Proxy
-	location /qbit/ {
-	include /nginx/conf/errorV2.conf;
-	auth_request /auth-4;
+    location /qbit/ {
+    include /nginx/conf/errorV2.conf;
+    auth_request /auth-4;
     proxy_pass              http://127.0.0.1:8791/;
     proxy_set_header        X-Forwarded-Host        $server_name:$server_port;
     proxy_hide_header       Referer;
