@@ -9,7 +9,7 @@ Port 80 & Port 443.
 
 Every other service will run via port 443.
 
-This nginx & it's configs are set to work with Organizr & with HTTP Authentication, Currently configured to have admin login if trying to reach plex/sonarr ect throught domain.
+This nginx & it's configs are set to work with Organizr & with HTTP Authentication. Configured to require admin login when trying to reach plex/sonarr ect through either subdir or subdomain.
 
 Always change domain / domain.com in the .conf to your very own FQDN (Fully qualified domain name)!
 
