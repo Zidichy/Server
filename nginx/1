@@ -1,0 +1,73 @@
+May 29 02:22:18 detect_link: WAN port link down detected!
+May 29 02:22:22 detect_link: WAN port link restored!
+May 29 02:22:54 xl2tpd[16804]: Connection 11121 closed to 91.240.64.14, port 1701 (Timeout)
+May 29 02:22:54 pppd[16813]: Connect time 201.5 minutes.
+May 29 02:22:54 pppd[16813]: Sent 88180659 bytes, received 1543588576 bytes.
+May 29 02:22:54 pppd[16813]: Overriding mtu 1500 to 1450
+May 29 02:22:54 pppd[16813]: Overriding mru 1500 to mtu value 1450
+May 29 02:22:54 pppd[16813]: Connection terminated.
+May 29 02:22:54 dnsmasq[16784]: read /etc/hosts - 9 addresses
+May 29 02:22:54 dnsmasq[16784]: read /etc/storage/dnsmasq/hosts - 7 addresses
+May 29 02:22:54 dnsmasq-dhcp[16784]: read /etc/dnsmasq/dhcp/dhcp-hosts.rc
+May 29 02:22:54 vpnc-script: ppp5 down
+May 29 02:22:54 pppd[16813]: Exit.
+May 29 02:22:54 dnsmasq[16784]: using nameserver 192.168.1.1#53
+May 29 02:22:54 kernel: DROP IN=br0 OUT=eth3 MAC=bc:ae:c5:eb:01:02:f0:98:9d:a0:9e:d7:08:00 SRC=10.0.0.176 DST=162.159.46.1 LEN=71 TOS=0x00 PREC=0x00 TTL=63 ID=0 DF PROTO=TCP SPT=58729 DPT=443 WINDOW=2048 RES=0x00 ACK PSH FIN URGP=0 
+May 29 02:22:56 kernel: DROP IN=br0 OUT=eth3 MAC=bc:ae:c5:eb:01:02:68:05:ca:66:7b:57:08:00 SRC=10.0.0.2 DST=35.186.224.47 LEN=40 TOS=0x00 PREC=0x00 TTL=127 ID=45811 DF PROTO=TCP SPT=3853 DPT=443 WINDOW=0 RES=0x00 ACK RST URGP=0 
+May 29 02:22:57 kernel: DROP IN=br0 OUT=eth3 MAC=bc:ae:c5:eb:01:02:f0:98:9d:a0:9e:d7:08:00 SRC=10.0.0.176 DST=162.159.46.1 LEN=71 TOS=0x00 PREC=0x00 TTL=63 ID=0 DF PROTO=TCP SPT=58729 DPT=443 WINDOW=2048 RES=0x00 ACK PSH FIN URGP=0 
+May 29 02:23:00 RT-N56U: Perform WAN manual reconnect
+May 29 02:23:00 xl2tpd[16804]: Disconnecting from 91.240.64.14, Local: 40094, Remote: 11121
+May 29 02:23:00 xl2tpd[16804]: death_handler: Fatal signal 15 received
+May 29 02:23:00 DHCP WAN Client: deconfig (eth3): lease is lost
+May 29 02:23:00 RT-N56U: WAN down (eth3)
+May 29 02:23:00 dnsmasq[16784]: read /etc/hosts - 9 addresses
+May 29 02:23:00 dnsmasq[16784]: read /etc/storage/dnsmasq/hosts - 7 addresses
+May 29 02:23:00 dnsmasq-dhcp[16784]: read /etc/dnsmasq/dhcp/dhcp-hosts.rc
+May 29 02:23:00 dnsmasq[16784]: using nameserver 8.8.8.8#53
+May 29 02:23:00 kernel: eth3: ===> VirtualIF_close
+May 29 02:23:00 kernel: eth3: ===> VirtualIF_open
+May 29 02:23:00 RT-N56U: Hardware NAT/Routing: Enabled, IPoE/PPPoE offload [WAN]<->[LAN/WLAN]
+May 29 02:23:00 RT-N56U: Hardware NAT/Routing: IPv4 UDP flow offload - OFF
+May 29 02:23:00 DHCP WAN Client: starting on eth3 ...
+May 29 02:23:01 DHCP WAN Client: bound (eth3), IP: 217.211.243.65, GW: 217.211.243.1, lease time: 1200
+May 29 02:23:01 RT-N56U: WAN up (eth3)
+May 29 02:23:01 dnsmasq[16784]: read /etc/hosts - 9 addresses
+May 29 02:23:01 dnsmasq[16784]: read /etc/storage/dnsmasq/hosts - 7 addresses
+May 29 02:23:01 dnsmasq-dhcp[16784]: read /etc/dnsmasq/dhcp/dhcp-hosts.rc
+May 29 02:23:01 dnsmasq[16784]: using nameserver 195.67.199.15#53
+May 29 02:23:01 dnsmasq[16784]: using nameserver 195.67.199.16#53
+May 29 02:23:01 xl2tpd[17022]: Using l2tp kernel support.
+May 29 02:23:01 xl2tpd[17024]: xl2tpd version xl2tpd-1.3.6 started on RT-N56U PID:17024
+May 29 02:23:01 xl2tpd[17024]: Connecting to host se-kis.privatevpn.com, port 1701
+May 29 02:23:01 xl2tpd[17024]: Connection established to 91.240.64.9, 1701.  Local: 49655, Remote: 53739 (ref=0/0).
+May 29 02:23:01 xl2tpd[17024]: Calling on tunnel 49655
+May 29 02:23:01 xl2tpd[17024]: Call established with 91.240.64.9, Local: 14395, Remote: 12917, Serial: 1 (ref=0/0)
+May 29 02:23:01 pppd[17025]: Plugin pppol2tp.so loaded.
+May 29 02:23:01 pppd[17025]: pppd 2.4.7 started by admin, uid 0
+May 29 02:23:01 pppd[17025]: Using interface ppp5
+May 29 02:23:01 pppd[17025]: Connect: ppp5 <--> l2tp (91.240.64.9)
+May 29 02:23:01 pppd[17025]: Overriding mtu 1500 to 1450
+May 29 02:23:01 pppd[17025]: Overriding mru 1500 to mtu value 1450
+May 29 02:23:01 pppd[17025]: CHAP authentication succeeded
+May 29 02:23:01 pppd[17025]: local  IP address 10.126.13.5
+May 29 02:23:01 pppd[17025]: remote IP address 10.126.13.1
+May 29 02:23:01 pppd[17025]: primary   DNS address 10.126.13.1
+May 29 02:23:01 pppd[17025]: secondary DNS address 108.59.1.193
+May 29 02:23:02 dnsmasq[16784]: read /etc/hosts - 9 addresses
+May 29 02:23:02 dnsmasq[16784]: read /etc/storage/dnsmasq/hosts - 7 addresses
+May 29 02:23:02 dnsmasq-dhcp[16784]: read /etc/dnsmasq/dhcp/dhcp-hosts.rc
+May 29 02:23:02 dnsmasq[16784]: using nameserver 10.126.13.1#53
+May 29 02:23:02 dnsmasq[16784]: using nameserver 108.59.1.193#53
+May 29 02:23:02 vpnc-script: ppp5 up
+May 29 02:23:02 kernel: DROP IN=br0 OUT=ppp5 MAC=bc:ae:c5:eb:01:02:68:05:ca:66:7b:57:08:00 SRC=10.0.0.2 DST=192.168.1.1 LEN=40 TOS=0x00 PREC=0x00 TTL=127 ID=55219 DF PROTO=TCP SPT=1464 DPT=80 WINDOW=1026 RES=0x00 ACK FIN URGP=0 
+May 29 02:23:04 kernel: DROP IN=br0 OUT=ppp5 MAC=bc:ae:c5:eb:01:02:f0:98:9d:a0:9e:d7:08:00 SRC=10.0.0.176 DST=162.159.46.1 LEN=71 TOS=0x00 PREC=0x00 TTL=63 ID=0 DF PROTO=TCP SPT=58729 DPT=443 WINDOW=2048 RES=0x00 ACK PSH FIN URGP=0 
+May 29 02:23:04 kernel: DROP IN=br0 OUT=ppp5 MAC=bc:ae:c5:eb:01:02:68:05:ca:66:7b:57:08:00 SRC=10.0.0.2 DST=40.67.251.132 LEN=143 TOS=0x00 PREC=0x00 TTL=127 ID=22421 DF PROTO=TCP SPT=3827 DPT=443 WINDOW=1024 RES=0x00 ACK PSH FIN URGP=0 
+May 29 02:23:05 kernel: DROP IN=br0 OUT=ppp5 MAC=bc:ae:c5:eb:01:02:68:05:ca:66:7b:57:08:00 SRC=10.0.0.2 DST=192.168.1.1 LEN=40 TOS=0x00 PREC=0x00 TTL=127 ID=55220 DF PROTO=TCP SPT=1464 DPT=80 WINDOW=0 RES=0x00 ACK RST URGP=0 
+May 29 02:23:05 kernel: DROP IN=ppp5 OUT= MAC= SRC=104.16.58.5 DST=10.126.13.5 LEN=40 TOS=0x00 PREC=0x00 TTL=61 ID=0 DF PROTO=TCP SPT=443 DPT=1071 WINDOW=0 RES=0x00 RST URGP=0 
+May 29 02:23:10 kernel: DROP IN=br0 OUT=ppp5 MAC=bc:ae:c5:eb:01:02:f0:98:9d:a0:9e:d7:08:00 SRC=10.0.0.176 DST=162.159.46.1 LEN=71 TOS=0x00 PREC=0x00 TTL=63 ID=0 DF PROTO=TCP SPT=58729 DPT=443 WINDOW=2048 RES=0x00 ACK PSH FIN URGP=0 
+May 29 02:23:13 kernel: DROP IN=br0 OUT=ppp5 MAC=bc:ae:c5:eb:01:02:68:05:ca:66:7b:57:08:00 SRC=10.0.0.2 DST=40.67.251.132 LEN=40 TOS=0x00 PREC=0x00 TTL=127 ID=22449 DF PROTO=TCP SPT=3827 DPT=443 WINDOW=0 RES=0x00 ACK RST URGP=0 
+May 29 02:23:17 kernel: DROP IN=br0 OUT=ppp5 MAC=bc:ae:c5:eb:01:02:f0:98:9d:a0:9e:d7:08:00 SRC=10.0.0.176 DST=162.159.46.1 LEN=71 TOS=0x00 PREC=0x00 TTL=63 ID=0 DF PROTO=TCP SPT=58729 DPT=443 WINDOW=2048 RES=0x00 ACK PSH FIN URGP=0 
+May 29 02:23:23 kernel: DROP IN=br0 OUT=ppp5 MAC=bc:ae:c5:eb:01:02:f0:98:9d:a0:9e:d7:08:00 SRC=10.0.0.176 DST=162.159.46.1 LEN=71 TOS=0x00 PREC=0x00 TTL=63 ID=0 DF PROTO=TCP SPT=58729 DPT=443 WINDOW=2048 RES=0x00 ACK PSH FIN URGP=0 
+May 29 02:23:30 kernel: DROP IN=br0 OUT=ppp5 MAC=bc:ae:c5:eb:01:02:f0:98:9d:a0:9e:d7:08:00 SRC=10.0.0.176 DST=162.159.46.1 LEN=71 TOS=0x00 PREC=0x00 TTL=63 ID=0 DF PROTO=TCP SPT=58729 DPT=443 WINDOW=2048 RES=0x00 ACK PSH FIN URGP=0 
+May 29 02:23:36 kernel: DROP IN=br0 OUT=ppp5 MAC=bc:ae:c5:eb:01:02:f0:98:9d:a0:9e:d7:08:00 SRC=10.0.0.176 DST=162.159.46.1 LEN=71 TOS=0x00 PREC=0x00 TTL=63 ID=0 DF PROTO=TCP SPT=58729 DPT=443 WINDOW=2048 RES=0x00 ACK PSH FIN URGP=0 
+May 29 02:23:43 kernel: DROP IN=br0 OUT=ppp5 MAC=bc:ae:c5:eb:01:02:f0:98:9d:a0:9e:d7:08:00 SRC=10.0.0.176 DST=162.159.46.1 LEN=40 TOS=0x00 PREC=0x00 TTL=63 ID=0 DF PROTO=TCP SPT=58729 DPT=443 WINDOW=2048 RES=0x00 ACK RST URGP=0 
