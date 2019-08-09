@@ -19,4 +19,4 @@ Basically everything you will ever need. =)
 
 Swedish guide on how to do everything is at https://www.sweclockers.com/forum/post/18019307
 
-English guide will be available in awhile!
+English guide will be available in soon.
