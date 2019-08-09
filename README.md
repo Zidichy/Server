@@ -13,8 +13,9 @@ This nginx & it's configs are set to work with Organizr & with HTTP Authenticati
 
 Always change domain / domain.com in the .conf to your very own FQDN (Fully qualified domain name)!
 
-Will add more info later on Including a full guide on how to do everthing. Nginx, ssl, auth's, geoblock, domain ect.
+Will add more info later on Including a full guide on how to do everthing. Nginx, ssl, auth's, domain ect.
 
 Basically everything you will ever need. =)
 
-But for now my .confs i've uploaded will have to do.
+Swedish guide on how to do everything is at https://www.sweclockers.com/forum/post/18019307
+English guide will be available in awhile!
