@@ -17,6 +17,6 @@ Will add more info later on Including a full guide on how to do everthing. Nginx
 
 Basically everything you will ever need. =)
 
-Swedish guide on how to do everything is at https://www.sweclockers.com/forum/post/18019307
+Swedish guide on how to do everything is located at https://www.sweclockers.com/forum/post/18019307
 
 English guide will be available soon.
