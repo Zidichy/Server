@@ -11,7 +11,7 @@ Configured to require admin level login when trying to reach /plex or /sonarr ec
 
 Always change domain / domain.com in the .conf files to your very own FQDN (Fully qualified domain name)!
 
-More info finally added ^^ full guides now available in the links below.
+More info finally added ^^ full guides now available in the links below.<br>
 Swedish Guide.<br>
 https://www.sweclockers.com/forum/post/18019307/
 
