@@ -13,7 +13,7 @@ Always change domain / domain.com in the .conf files to your very own FQDN (Full
 
 More info finally added ^^ full guides now available in the links below.
 Swedish Guide.
-https://www.sweclockers.com/forum/post/18019307
+https://www.sweclockers.com/forum/post/18019307/
 
 English Guide.
 https://www.reddit.com/r/nginx/comments/cppfo7/full_detailed_guide_on_how_to_get_nginx_ssl/
