@@ -12,8 +12,8 @@ Configured to require admin level login when trying to reach /plex or /sonarr ec
 Always change domain / domain.com in the .conf files to your very own FQDN (Fully qualified domain name)!
 
 More info finally added ^^ full guides now available in the links below.
-Swedish Guide.
+Swedish Guide.<br>
 https://www.sweclockers.com/forum/post/18019307/
 
-English Guide.
+English Guide.<br>
 https://www.reddit.com/r/nginx/comments/cppfo7/full_detailed_guide_on_how_to_get_nginx_ssl/
